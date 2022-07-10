@@ -12,7 +12,7 @@ A Typing Test game similar to https://doorloop.com/type and demonstrate effectiv
 1. Review the requirements, check out some examples, and then sketch out a rough draft of the application. Determine what tools should be used to execute on the requirements
 ![IMG_20220710_122544178](https://user-images.githubusercontent.com/22300258/178159222-dac87d7c-54ff-43ea-b03c-4194ce7e92b3.jpg)
 2. Translate the sketch into a type, and component/data outline. This outline is in (Outline.md)[./Outline.md]
-The purpose of this is to figure out what types we need, what components we need and what data they need.
+The purpose of this is to figure out what types we need, what components we need and what data they need.![Screen Shot 2022-07-10 at 12 29 16 PM](https://user-images.githubusercontent.com/22300258/178159449-c8554220-9f5e-4c95-a7f7-5eaa3c96831f.png)
 3. Create the folder structure for the repo. This will mimic the OUTLINE.md. 
 4. Next, create placeholder files and fill each of them with the appropriate template. I am using snippets to generate the component outline,
 5. Fill in the components
