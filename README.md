@@ -20,7 +20,13 @@ The purpose of this is to figure out what types we need, what components we need
 ## Challenges
 One of the largest challenges with this project was ensuring there was no locking of the ux as people typed. This required ensuring that we were avoiding any costly renders by utilizing memoization around generating our words.
 
-The other big challenge was the time constraint. Building an extensible application definitely requires a bit more work as you separate concerns and manage data flow through the application. As a result, I needed to skimp on testing, whcih I would generally describe to be a hard requirement in my applications.
+The other big challenge was the time constraint. Building an extensible application definitely requires a bit more work as you separate concerns and manage data flow through the application. As a result, I needed to skimp on testing, whcih I would generally describe to be a hard requirement in my applications. 
+
+Features I would've also liked to add:
+- Prompt if a user forgets to type space at the end of a word
+- Score board with initals
+- Better analytics
+- Addidition UX refinements (make it prettier)
 
 ## Technology
 This project is a typing test built with react, typescript, and MUI.
