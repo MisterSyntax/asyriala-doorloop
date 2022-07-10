@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/asyriala-doorloop/static/js/main.df1edb5a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/asyriala-doorloop/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/asyriala-doorloop/index.html",
+    "main.df1edb5a.js.map": "/asyriala-doorloop/static/js/main.df1edb5a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/asyriala-doorloop/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.df1edb5a.js"
+  ]
+}
