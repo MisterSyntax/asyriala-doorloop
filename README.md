@@ -7,9 +7,24 @@ A Typing Test game similar to https://doorloop.com/type and demonstrate effectiv
 ## View The app Live
 [https://mistersyntax.github.io/asyriala-doorloop/](https://mistersyntax.github.io/asyriala-doorloop/)
 
+## My process
+
+1. Review the requirements, check out some examples, and then sketch out a rough draft of the application. Determine what tools should be used to execute on the requirements
+![IMG_20220710_122544178](https://user-images.githubusercontent.com/22300258/178159222-dac87d7c-54ff-43ea-b03c-4194ce7e92b3.jpg)
+2. Translate the sketch into a type, and component/data outline. This outline is in (Outline.md)[./Outline.md]
+The purpose of this is to figure out what types we need, what components we need and what data they need.
+3. Create the folder structure for the repo. This will mimic the OUTLINE.md. 
+4. Next, create placeholder files and fill each of them with the appropriate template. I am using snippets to generate the component outline,
+5. Fill in the components
+
+## Challenges
+One of the largest challenges with this project was ensuring there was no locking of the ux as people typed. This required ensuring that we were avoiding any costly renders by utilizing memoization around generating our words.
 
 ## Technology
 This project is a typing test built with react, typescript, and MUI.
+
+
+
 
 ## Available Scripts
 
