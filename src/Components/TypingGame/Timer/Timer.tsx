@@ -27,7 +27,7 @@ export function Timer ({
   setUserInput,
   userInput
 }: ITimerProps) {
-  const [timeLeft, setTimeLeft] = React.useState(10);
+  const [timeLeft, setTimeLeft] = React.useState(60);
 
   React.useEffect(() => {
     if(timeLeft <= 0) {
