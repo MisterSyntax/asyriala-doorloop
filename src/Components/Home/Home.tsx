@@ -2,6 +2,7 @@ import * as React from 'react';
 
 /** Design System Components */
 import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 
 /** Components */
 import ScoreCard from './ScoreCard/ScoreCard';
@@ -22,25 +23,22 @@ export function Home ({
   score,
   setScore,
 }: IHomeProps) {
-
-  if(score.wordsPerMinute) {
-    return (
-      <>
-        <Button variant="contained" onClick={() => setIsGameStarted(true)}>
-          Play Again
-        </Button>
-        <ScoreCard score={score} />
-      </>
-    );
-  }
   
   return (
-    <>
-      {!score.wordsPerMinute && <ScoreCard score={score} />}
-      <Button variant="contained" onClick={() => setIsGameStarted(true)}>
-        Start Game!
-      </Button>
-    </>
+    <Box
+      sx={{
+        display: 'flex',
+        alignItems: 'center',
+        flexDirection: 'column',
+      }}
+    >
+      {(score.wordsPerMinute && <ScoreCard score={score} />) || null}
+      <div>
+        <Button variant="contained" onClick={() => setIsGameStarted(true)}>
+          {!score.wordsPerMinute ? 'Start Game!' : 'Play Again'}
+        </Button> 
+      </div>
+    </Box>
   );
 }
 

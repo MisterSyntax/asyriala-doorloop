@@ -19,7 +19,7 @@ export default function App () {
     wordsPerMinute: 0,
     typos: 0,
   });
-  const [isGameStarted, setIsGameStarted] = React.useState(true);
+  const [isGameStarted, setIsGameStarted] = React.useState(false);
  
   return (
     <Box
@@ -30,7 +30,7 @@ export default function App () {
       }}
     >
       <CssBaseline />
-      <Container component='main' sx={{ mt: 8, mb: 2 }} maxWidth='md'> 
+      <Container component='main' sx={{ flexGrow: 1, mt: 8, mb: 2 }} maxWidth='md'> 
         <Header />
         <Box
           sx={{ 
@@ -38,6 +38,7 @@ export default function App () {
             justifyContent: 'center',
             flexDirection: 'column',
             mt: 8,
+            minHeight: '100%',
             width: '100%',
           }}
         >
