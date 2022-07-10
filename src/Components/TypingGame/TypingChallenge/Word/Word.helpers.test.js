@@ -1,4 +1,4 @@
-import { getLetterColor } from './TypingChallenge.helpers';
+import { getLetterColor } from './Word.helpers';
 
 describe('getLetterColor', () => {
   it('returns error if isnt correct and has been typed', () => {

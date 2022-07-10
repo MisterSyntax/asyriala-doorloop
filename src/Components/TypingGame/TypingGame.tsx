@@ -24,6 +24,7 @@ export function TypingGame ({
   setScore,
 }: ITypingGameProps) {
   const [userInput, setUserInput] = React.useState<string[]>(['']);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [randomWords, _] = React.useState(getRandomWords());
 
   React.useEffect(() => {

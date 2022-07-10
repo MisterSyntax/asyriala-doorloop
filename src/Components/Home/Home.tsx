@@ -2,7 +2,6 @@ import * as React from 'react';
 
 /** Design System Components */
 import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
 
 /** Components */
 import ScoreCard from './ScoreCard/ScoreCard';

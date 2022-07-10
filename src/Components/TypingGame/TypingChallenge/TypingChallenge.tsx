@@ -1,18 +1,17 @@
 import * as React from 'react';
 
 /** Design System Components */
-
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
 
 /** Components */
+import Word from './Word/Word';
 
 /** Types */
 
 /** Helpers */
 import { getLetterColor } from './TypingChallenge.helpers';
-import { createNamedExports } from 'typescript';
 
 interface ITypingChallengeProps {
   randomWords: string[],
@@ -43,7 +42,8 @@ export function TypingChallenge ({
                 mb: 2
               }}
             >
-              {
+              <Word word={word} userInput={userInput} i={i}/>
+              {/*
                 word.split('').map((letter, j) => {
                   const isActive = i === userInput.length - 1 && j === userInput[userInput.length - 1]?.length;
                   const isCorrect = letter === userInput?.[i]?.[j];
@@ -64,7 +64,7 @@ export function TypingChallenge ({
                     </Typography>
                   );
                 }
-              )}
+              )*/}
               <span key={`word${i}-space`}>{' '}</span>
             </Box>
           );
@@ -91,7 +91,7 @@ export function TypingChallenge ({
             setUserInput([...newUserInput, '']);
           } else {
             newUserInput.push(event.target.value);
-            setUserInput(newUserInput);
+              setUserInput(newUserInput);
           }
         }}
       />
