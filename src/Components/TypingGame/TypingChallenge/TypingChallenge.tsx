@@ -2,16 +2,12 @@ import * as React from 'react';
 
 /** Design System Components */
 import TextField from '@mui/material/TextField';
-import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
 
 /** Components */
 import Word from './Word/Word';
 
 /** Types */
-
-/** Helpers */
-import { getLetterColor } from './TypingChallenge.helpers';
 
 interface ITypingChallengeProps {
   randomWords: string[],
