@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/asyriala-doorloop/static/js/main.51f362e9.js",
+    "main.js": "/asyriala-doorloop/static/js/main.76386a16.js",
     "static/js/787.28cb0dcd.chunk.js": "/asyriala-doorloop/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/asyriala-doorloop/index.html",
-    "main.51f362e9.js.map": "/asyriala-doorloop/static/js/main.51f362e9.js.map",
+    "main.76386a16.js.map": "/asyriala-doorloop/static/js/main.76386a16.js.map",
     "787.28cb0dcd.chunk.js.map": "/asyriala-doorloop/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.51f362e9.js"
+    "static/js/main.76386a16.js"
   ]
 }
