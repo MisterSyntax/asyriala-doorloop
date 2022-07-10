@@ -1,11 +1,11 @@
 # The Tremendous Typing Test
 A Typing Test game similar to https://doorloop.com/type and demonstrate effective coding with an emphasis on keeping it simple, proper component breakdown, separation of concerns, dynamic and generic code, and efficient logic.
 
-![Screen Shot 2022-07-10 at 12 20 34 PM](https://user-images.githubusercontent.com/22300258/178159114-ffb5e872-7311-4832-8245-f60c6568013a.png)
-
-
 ## View The app Live
 [https://mistersyntax.github.io/asyriala-doorloop/](https://mistersyntax.github.io/asyriala-doorloop/)
+
+![Screen Shot 2022-07-10 at 12 20 34 PM](https://user-images.githubusercontent.com/22300258/178159114-ffb5e872-7311-4832-8245-f60c6568013a.png)
+
 
 ## My process
 
