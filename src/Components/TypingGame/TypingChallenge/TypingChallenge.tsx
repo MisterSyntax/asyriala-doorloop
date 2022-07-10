@@ -29,6 +29,7 @@ export function TypingChallenge ({
           return (
             <Box 
               component='span'
+              key={`box-${i}`}
               sx={{
                 borderRadius: 1,
                 marginBottom: 1,
@@ -39,28 +40,6 @@ export function TypingChallenge ({
               }}
             >
               <Word word={word} userInput={userInput} i={i}/>
-              {/*
-                word.split('').map((letter, j) => {
-                  const isActive = i === userInput.length - 1 && j === userInput[userInput.length - 1]?.length;
-                  const isCorrect = letter === userInput?.[i]?.[j];
-                  const hasBeenTyped = i < userInput.length - 1 || (i === userInput.length -1 && j < userInput[userInput.length - 1]?.length);
-
-                  return (
-                    <Typography 
-                      key={`word${i}-letter${j}`}
-                      component='span'
-                      variant='h6'
-                      color={getLetterColor({isActive, isCorrect, hasBeenTyped })}
-                      sx={{
-                        fontWeight: 'bold',
-                        textDecoration: isActive ? 'underline' : '',
-                      }}
-                    >
-                      {letter}
-                    </Typography>
-                  );
-                }
-              )*/}
               <span key={`word${i}-space`}>{' '}</span>
             </Box>
           );
